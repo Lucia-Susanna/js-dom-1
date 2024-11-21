@@ -4,7 +4,27 @@
   box-sizing: border-box;
 }
 
+.dark{
+  background-color: black;
+}
 
+.light{
+  background-color: rgb(248, 229, 125);
+}
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+}
+
+.column{
+  width: 100%/2;
+}
 
 .flex{
   display: flex;
@@ -18,14 +38,6 @@
   justify-content: center;
 }
 
-.container{
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.column{
-  width: 100%/2;
-}
 
 .relative{
   position: relative;
@@ -36,11 +48,12 @@
   left: -41px;
 }
 
-.none{
-  display: none;
-}
-
 #interruttoreLampadina{
   padding: 10px;
   border-radius: 20px;
+  width: 150px;
+}
+
+.none{
+  display: none;
 }
