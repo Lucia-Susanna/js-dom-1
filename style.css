@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.flex{
+  display: flex;
+}
+
+.a-center{
+  align-items: center;
+}
+
+.j-center{
+  justify-content: center;
+}
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.column{
+  width: 100%/2;
+}
+
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+  left: -41px;
+}
+
+.none{
+  display: none;
+}
+
+#interruttore{
+  padding: 10px;
+  border-radius: 20px;
+}
